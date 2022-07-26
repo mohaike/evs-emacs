@@ -13,7 +13,7 @@ file_creator()
 {
     if [ ! -f "${1}" ]
     then
-        say 01
+        # say 01
         :>"${1}"
     fi
 }
